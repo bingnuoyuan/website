@@ -2,3 +2,10 @@
 #mobiPlatform{
 	display: none;
 }
+/*自定义样式*/
+.fk-newsListSummary{
+	white-space: nowrap;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
