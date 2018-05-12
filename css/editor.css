@@ -1,0 +1,203 @@
+﻿/* For JCE Editor: START
+--------------------------------------------- */
+
+#tinymce{} /* 第一組需為空白的css */
+
+#tinymce{ 
+	font-size: 15px;
+}
+
+hr#system-readmore{
+	border: 1px solid #FF0000;
+	height: 15px;
+	background: #FFDDDD;
+}
+
+hr#system-readmore:before {
+    content: "--- read more ---";
+    font-size: 10px;
+    color: #FF0000;
+    padding-left: 45%;
+}
+
+
+
+/* For JCE Editor: END
+--------------------------------------------- */
+
+
+
+/* 標題 */
+.title01{
+	display: block;
+	background: #eee;
+	color: #333;
+	padding: 5px 10px;
+	margin: 20px 0 10px 0;
+
+}
+
+.title02{
+	color:#0087F6;
+	padding-bottom:20px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+
+.product-img{
+    border:1px solid #eee;
+    -moz-box-shadow: 4px 7px 10px rgba(0,0,0, 0.05);
+    -webkit-box-shadow: 4px 7px 10px rgba(0,0,0, 0.05));
+    box-shadow: 4px 7px 10px rgba(0,0,0, 0.05);
+    margin-top: 20px;
+}
+
+.download-btn{
+	margin-top: 15px;
+}
+
+.download-btn a{
+	color: #fff;
+	padding: 5px 50px 5px 10px;
+	display: inline-block;
+	font-size: 16px;
+	background: url(../images/ui/download-btn.png) no-repeat 90%  #0081F4;
+	zoom: 1;
+    /*動作*/
+    transition: 0.3s linear;
+}
+
+.download-btn a:hover{
+	 zoom: 1;
+    /*動作*/
+    transition: 0.3s linear;
+    opacity: 0.8;
+}
+
+.catalog-download,.catalog-online{
+	margin-top: 15px;
+}
+
+.catalog-download a,.catalog-online a{
+	color: #fff;
+	padding: 15px 0;
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	background: url(../images/ui/download-icon.png) no-repeat 80% #FF4940;
+	zoom: 1;
+    /*動作*/
+    transition: 0.3s linear;
+}
+
+.catalog-online a{
+	background: url(../images/ui/online-icon.png) no-repeat 85% #E70000;
+}
+
+.catalog-download a:hover,.catalog-online a:hover{
+	 zoom: 1;
+    /*動作*/
+    transition: 0.3s linear;
+    opacity: 0.8;
+}
+
+.flyer-download{
+	color: #777777;
+}
+
+.flyer-download a{
+	display: block;
+	padding: 20px 10px;
+	border-bottom: 1px solid #ddd;
+	background: url(../images/ui/flyer-download.png) no-repeat 95%;
+	/*動作*/
+    transition: 0.3s linear;
+}
+
+.flyer-download a:hover{
+	background:url(../images/ui/flyer-download.png) no-repeat 95% #eee;
+	/*動作*/
+    transition: 0.3s linear;
+}
+
+
+/* 連結 */
+.link01 a{
+	color:#A50023;
+}
+
+.link02 a{
+	color:#A50023;
+}
+
+/* 圖片 */
+.pic01{
+	
+}
+
+.pic02{
+
+}
+
+/* 條列 */
+ul.list01{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.list01 li { 
+    padding-left: 20px; 
+    text-indent: -20px;
+}
+
+.list01 li:before {
+    content: "• ";
+    color: red; /* or whatever color you prefer */
+    font-size: 30px;
+}
+
+.list02 li{
+
+}
+
+/* 表格 */
+.table01{
+	width: 100%;
+}
+.table01 th{
+	background: #CCC;
+	font-weight: bold;
+	text-align: center;
+}
+.table01 td, .table01 th{
+	border: 1px solid #DDD;
+	padding: 7px 10px;
+
+}
+
+/* 分隔線 */
+hr{
+	border-top: 1px solid #DDD;
+}
+
+
+.videorwd {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videorwd iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+/* No-display */
+.no_display{ display:none;}
+
