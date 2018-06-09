@@ -201,3 +201,21 @@ hr{
 /* No-display */
 .no_display{ display:none;}
 
+/*产品列表页样式*/
+.catalog{
+	display: block; 
+	min-height: 500px;
+	padding: 12px;
+	background: #f2f2f2;
+}
+.catalog h2{
+	border-bottom: 1px solid #fff;
+}
+.catalog ul li{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #fff;
+}
