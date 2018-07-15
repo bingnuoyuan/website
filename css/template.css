@@ -1285,3 +1285,10 @@ h3.page-header,
 .pagination li.pagination-start span.pagenav, .pagination li.pagination-next span.pagenav, .pagination li.pagination-end span.pagenav, .pagination li.pagination-prev span.pagenav {
   border: none;
 }
+
+.menuNav .nav{
+  position: relative;
+}
+.menuNav .nav a{
+  font-size: 12px;
+}
